@@ -1,6 +1,5 @@
 import React from "react";
-import { Icon, Grid, Container } from "semantic-ui-react";
-import styled from "styled-components";
+import { Grid } from "semantic-ui-react";
 
 import HeroSection from "./Components/HeroSection";
 
