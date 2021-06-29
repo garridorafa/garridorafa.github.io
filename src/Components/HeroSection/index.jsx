@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Grid, Icon } from "semantic-ui-react";
 
 import { AvatarImage } from "./styles";
