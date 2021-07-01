@@ -1,13 +1,13 @@
 import React from "react";
 
-import HeroSection from "./Components/HeroSection";
-import SkillsSection from "./Components/SkillsSection";
+import Hero from "./Components/Hero";
+import Skills from "./Components/Skills";
 
 function App() {
   return (
     <>
-      <HeroSection />
-      <SkillsSection />
+      <Hero />
+      <Skills />
     </>
   );
 }
