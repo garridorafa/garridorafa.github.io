@@ -2,11 +2,10 @@ import styled from "styled-components";
 
 export const FooterDiv = styled.div`
   background: black;
-  color: white;
+  color: rgb(221 221 221 / 90%);
   display: flex;
-  flex-direction: column-reverse;
   align-items: center;
-  padding-bottom: 10px;
+  justify-content: center;
   height: 100px;
   font-size: 18px;
 `;
