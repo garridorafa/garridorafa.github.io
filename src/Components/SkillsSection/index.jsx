@@ -1,32 +1,31 @@
 import { Grid, Icon } from "semantic-ui-react";
 
+import { ItemSyled, SkillsSegment } from "./styles";
 import skillsInfo from "./skillsInfo";
 
-export const SkillItem = ({ title, description, iconName }) => {
+const SkillItem = ({ description, iconName }) => {
   return (
-    <Grid.Column textAlign="center">
+    <ItemSyled textAlign="center">
       <Icon name={iconName} size="massive" />
       <p>{description}</p>
-    </Grid.Column>
+    </ItemSyled>
   );
 };
 
 const SkillsSection = () => {
   return (
-    <>
-      <Grid>
-        <Grid centered>
-          <Grid.Row>
-            <h2>Skills</h2>
-          </Grid.Row>
-          <Grid.Row columns={3}>
-            {skillsInfo.map((skill) => {
-              return <SkillItem {...skill} />;
-            })}
-          </Grid.Row>
-        </Grid>
+    <SkillsSegment>
+      <Grid centered>
+        <Grid.Row>
+          <h2>Skills</h2>
+        </Grid.Row>
+        <Grid.Row columns={3}>
+          {skillsInfo.map((skill) => {
+            return <SkillItem {...skill} />;
+          })}
+        </Grid.Row>
       </Grid>
-    </>
+    </SkillsSegment>
   );
 };
 
