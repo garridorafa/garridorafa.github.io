@@ -23,7 +23,7 @@ export const SkillsDiv = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  height: 800px;
   background: #d1ffd1;
   h2 {
     font-size: 3.5rem;

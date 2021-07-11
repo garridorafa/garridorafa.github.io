@@ -16,12 +16,16 @@ const skillsInfo = [
     iconName: "docker",
   },
   {
+    description: "MySql and PostgreSQL databases",
+    iconName: "database",
+  },
+  {
     description: "Cloud Engineering with AWS Services",
     iconName: "aws",
   },
   {
-    description: "MySql and PostgreSQL databases",
-    iconName: "database",
+    description: "Bitbucket pipelines, project repositories management",
+    iconName: "bitbucket icon",
   },
 ];
 
