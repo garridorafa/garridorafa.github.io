@@ -7,6 +7,8 @@ export const ProjectInfo = [
     description: "Dominican Republic travel webside build on react",
     image: rdtImg,
     alt: "rdt-website",
+    repo: "https://github.com/garridorafa/rdt-react-website",
+    url: "https://garridorafa.github.io/rdt-react-website/",
   },
   {
     projectName: "Tickets record",
