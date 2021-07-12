@@ -11,6 +11,9 @@ const NavBar = () => {
         <li>
           <NavItem>Skills</NavItem>
         </li>
+        <li>
+          <NavItem>Projects</NavItem>
+        </li>
       </NavMenu>
     </NavContainer>
   );

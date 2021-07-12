@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
+import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <NavBar />
       <Hero />
       <Skills />
+      <Projects />
       <Footer />
     </Router>
   );
