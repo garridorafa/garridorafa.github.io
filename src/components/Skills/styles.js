@@ -5,7 +5,7 @@ export const IconStyled = styled(Icon)({
   fontSize: "7rem !important",
 });
 
-export const ItemStyled = styled.div`
+export const SkillItemStyled = styled.div`
   display: flex;
   flex-direction: column;
   width: 33%;
@@ -27,6 +27,7 @@ export const SkillsDiv = styled.div`
   background: #d1ffd1;
   h2 {
     font-size: 3.5rem;
+    margin-bottom: 14px;
   }
 `;
 

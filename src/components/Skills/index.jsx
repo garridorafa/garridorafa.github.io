@@ -1,12 +1,12 @@
-import { IconStyled, ItemStyled, SkillsDiv, SkillsGroup } from "./styles";
+import { IconStyled, SkillItemStyled, SkillsDiv, SkillsGroup } from "./styles";
 import skillsInfo from "./skillsInfo";
 
 const SkillItem = ({ description, iconName }) => {
   return (
-    <ItemStyled textAlign="center">
+    <SkillItemStyled textAlign="center">
       <IconStyled name={iconName} size="huge" />
       <p>{description}</p>
-    </ItemStyled>
+    </SkillItemStyled>
   );
 };
 
