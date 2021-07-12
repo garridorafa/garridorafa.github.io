@@ -11,6 +11,9 @@ export const HeroDiv = styled.div`
   align-items: center;
   padding: 127px 123px;
   justify-content: space-evenly;
+  h1 {
+    font-size: 3rem;
+  }
 `;
 
 export const DescriptionStyled = styled.h2`
