@@ -9,13 +9,15 @@ export const AvatarImage = styled.img`
 export const HeroDiv = styled.div`
   display: flex;
   align-items: center;
+  margin-top: 90px;
   padding: 127px 123px;
   justify-content: space-evenly;
+  height: 700px;
   h1 {
     font-size: 3rem;
   }
 `;
 
 export const DescriptionStyled = styled.h2`
-  width: 571px;
+  width: 546px;
 `;
