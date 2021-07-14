@@ -6,7 +6,6 @@ export const ButtonStyled = styled.a`
   padding: 15px 40px;
   border-radius: 15px;
   margin-right: 10px;
-  margin-top: 70px;
   font-weight: bold;
   font-size: 1.2rem;
   color: black;
@@ -20,5 +19,8 @@ export const ButtonStyled = styled.a`
   :disabled {
     opacity: 0.6;
     filter: saturate(60%);
+  }
+  @media screen and (max-width: 768px) {
+    padding: 20px;
   }
 `;
