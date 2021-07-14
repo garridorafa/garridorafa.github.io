@@ -1,6 +1,6 @@
 import { Icon } from "semantic-ui-react";
 
-import { AvatarImage, DescriptionStyled, HeroDiv } from "./styles";
+import { AvatarImage, DescriptionStyled, HeroDiv, SocialLink } from "./styles";
 import avatar from "../../assets/profile-avatar.jpg";
 
 const HeroSection = () => {
@@ -15,10 +15,21 @@ const HeroSection = () => {
           A web designer and developer based in Santo Domingo. I like create
           fast and beautiful websites to help people go online.
         </DescriptionStyled>
-        <Icon name="linkedin" size="big" />
-        <Icon name="github" size="big" />
-        <Icon name="npm" size="big" />
-        <Icon name="mail" size="big" />
+        <SocialLink
+          href="https://www.linkedin.com/in/rafael-garrido-b8b0b4126/"
+          target="_blank"
+        >
+          <Icon name="linkedin" size="big" />
+        </SocialLink>
+        <SocialLink href="https://github.com/garridorafa" target="_blank">
+          <Icon name="github" size="big" />
+        </SocialLink>
+        <SocialLink href="https://www.npmjs.com/~garridorafa" target="_blank">
+          <Icon name="npm" size="big" />
+        </SocialLink>
+        <SocialLink href="mailto:garridolara.rafa@gmail.com" target="_blank">
+          <Icon name="mail" size="big" />
+        </SocialLink>
       </div>
     </HeroDiv>
   );

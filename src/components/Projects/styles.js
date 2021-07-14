@@ -12,6 +12,7 @@ export const ProjectItemStyled = styled.div`
   p {
     font-size: 2rem;
     max-width: 520px;
+    padding: 0 30px 20px 0;
   }
   img {
     width: 500px;

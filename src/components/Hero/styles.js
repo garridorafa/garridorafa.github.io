@@ -6,6 +6,14 @@ export const AvatarImage = styled.img`
   height: 370px;
 `;
 
+export const SocialLink = styled.a`
+  padding-right: 15px;
+  color: black;
+  :hover {
+    color: green;
+  }
+`;
+
 export const HeroDiv = styled.div`
   display: flex;
   align-items: center;

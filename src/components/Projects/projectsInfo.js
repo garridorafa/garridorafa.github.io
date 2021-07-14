@@ -8,7 +8,7 @@ export const ProjectInfo = [
     image: rdtImg,
     alt: "rdt-website",
     repo: "https://github.com/garridorafa/rdt-react-website",
-    url: "https://garridorafa.github.io/rdt-react-website/",
+    demo: "https://garridorafa.github.io/rdt-react-website/",
   },
   {
     projectName: "Tickets record",

@@ -8,15 +8,23 @@ export const ProjectItem = ({
   image,
   alt,
   repo,
-  url,
+  demo,
 }) => {
   return (
     <ProjectItemStyled>
       <div>
         <h3>{projectName}</h3>
         <p>{description}</p>
-        {repo && <Button variant="primary">GitHub Repo</Button>}
-        {url && <Button variant="primary">Check Online!</Button>}
+        {repo && (
+          <Button url={repo} variant="primary">
+            GitHub Repo
+          </Button>
+        )}
+        {demo && (
+          <Button url={demo} variant="primary">
+            Check Online!
+          </Button>
+        )}
       </div>
       <img src={image} alt={alt} />
     </ProjectItemStyled>
