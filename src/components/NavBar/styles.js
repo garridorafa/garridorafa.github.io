@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const NavMenu = styled.ul`
@@ -12,7 +11,7 @@ export const NavMenu = styled.ul`
   }
 `;
 
-export const NavItem = styled(Link)`
+export const NavItem = styled.a`
   transition: all 0.3s ease-in;
   color: #827171f2;
   font-weight: bold;
@@ -29,7 +28,7 @@ export const NavItem = styled(Link)`
 `;
 
 export const NavBarLogo = styled(NavItem)`
-  flex: 1;
+  width: 100%;
   justify-self: start;
   font-size: 2rem;
   color: black;

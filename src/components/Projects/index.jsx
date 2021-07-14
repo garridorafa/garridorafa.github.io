@@ -25,7 +25,7 @@ export const ProjectItem = ({
 
 const Projects = () => {
   return (
-    <ProjectsDiv>
+    <ProjectsDiv id="projects">
       <h2>Projects</h2>
       {ProjectInfo.map((project) => {
         return <ProjectItem {...project} />;

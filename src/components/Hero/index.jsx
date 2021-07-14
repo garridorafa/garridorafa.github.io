@@ -5,7 +5,7 @@ import avatar from "../../assets/profile-avatar.jpg";
 
 const HeroSection = () => {
   return (
-    <HeroDiv>
+    <HeroDiv id="about">
       <div>
         <AvatarImage src={avatar} alt="Profile" />
       </div>

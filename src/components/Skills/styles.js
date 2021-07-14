@@ -26,6 +26,7 @@ export const SkillsDiv = styled.div`
   height: 800px;
   background: #d1ffd1;
   h2 {
+    padding-top: 60px;
     font-size: 3.5rem;
     margin-bottom: 14px;
   }

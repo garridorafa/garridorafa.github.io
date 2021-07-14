@@ -12,11 +12,11 @@ const SkillItem = ({ description, iconName }) => {
 
 const SkillsSection = () => {
   return (
-    <SkillsDiv>
+    <SkillsDiv id="skills">
       <h2>Skills</h2>
       <SkillsGroup>
         {skillsInfo.map((skill) => {
-          return <SkillItem {...skill} />;
+          return <SkillItem key={skill.name} {...skill} />;
         })}
       </SkillsGroup>
     </SkillsDiv>

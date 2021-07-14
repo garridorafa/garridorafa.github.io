@@ -24,6 +24,7 @@ export const ProjectsDiv = styled.div`
   align-items: center;
   padding: 73px 0;
   h2 {
+    padding-top: 60px;
     font-size: 3.5rem;
   }
 `;

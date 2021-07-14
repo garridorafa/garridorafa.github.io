@@ -3,16 +3,16 @@ import { NavBarLogo, NavContainer, NavItem, NavMenu } from "./styles";
 const NavBar = () => {
   return (
     <NavContainer>
-      <NavBarLogo>Rafa Garrido </NavBarLogo>
+      <NavBarLogo href="/">Rafa Garrido </NavBarLogo>
       <NavMenu>
         <li>
-          <NavItem>About</NavItem>
+          <NavItem href="#top">About</NavItem>
         </li>
         <li>
-          <NavItem>Skills</NavItem>
+          <NavItem href="#skills">Skills</NavItem>
         </li>
         <li>
-          <NavItem>Projects</NavItem>
+          <NavItem href="#projects">Projects</NavItem>
         </li>
       </NavMenu>
     </NavContainer>
