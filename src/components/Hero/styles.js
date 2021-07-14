@@ -32,6 +32,7 @@ export const HeroDiv = styled.div`
     padding: 0;
     text-align: center;
     height: 500px;
+    margin-bottom: 40px;
     h1 {
       font-size: 2.5rem;
     }

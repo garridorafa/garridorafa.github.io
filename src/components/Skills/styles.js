@@ -16,6 +16,9 @@ export const SkillItemStyled = styled.div`
     font-size: 20px;
     text-align: center;
   }
+  @media screen and (max-width: 768px) {
+    width: 90%;
+  } ;
 `;
 
 export const SkillsDiv = styled.div`
@@ -30,6 +33,9 @@ export const SkillsDiv = styled.div`
     font-size: 3.5rem;
     margin-bottom: 14px;
   }
+  @media screen and (max-width: 768px) {
+    height: auto;
+  } ;
 `;
 
 export const SkillsGroup = styled.div`
@@ -38,4 +44,8 @@ export const SkillsGroup = styled.div`
   justify-content: center;
   width: 70%;
   align-items: center;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    width: 90%;
+  } ;
 `;
