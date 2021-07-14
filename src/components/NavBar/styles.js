@@ -27,9 +27,12 @@ export const NavItem = styled.a`
   }
 `;
 
-export const NavBarLogo = styled(NavItem)`
+export const NavBarLogo = styled.div`
+  display: flex;
   width: 100%;
-  justify-self: start;
+`;
+
+export const Logo = styled(NavItem)`
   font-size: 2rem;
   color: black;
 `;
@@ -38,7 +41,7 @@ export const NavContainer = styled.nav`
   background: lightgreen;
   position: fixed;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   height: 90px;
   padding: 0 50px;

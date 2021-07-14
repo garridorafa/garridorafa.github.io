@@ -1,9 +1,11 @@
-import { NavBarLogo, NavContainer, NavItem, NavMenu } from "./styles";
+import { Logo, NavBarLogo, NavContainer, NavItem, NavMenu } from "./styles";
 
 const NavBar = () => {
   return (
     <NavContainer>
-      <NavBarLogo href="/">Rafa Garrido </NavBarLogo>
+      <NavBarLogo>
+        <Logo href="/">Rafa Garrido </Logo>
+      </NavBarLogo>
       <NavMenu>
         <li>
           <NavItem href="#top">About</NavItem>
