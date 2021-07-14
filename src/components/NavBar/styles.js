@@ -30,6 +30,10 @@ export const NavItem = styled.a`
 export const NavBarLogo = styled.div`
   display: flex;
   width: 100%;
+  @media screen and (max-width: 768px) {
+    padding-top: 40px;
+    justify-content: center;
+  } ;
 `;
 
 export const Logo = styled(NavItem)`
@@ -46,10 +50,12 @@ export const NavContainer = styled.nav`
   height: 90px;
   padding: 0 50px;
   border-bottom: 1px solid black;
-
-  display: flex;
-  position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  @media screen and (max-width: 768px) {
+    position: static;
+    flex-direction: column;
+    height: 160px;
+  } ;
 `;
