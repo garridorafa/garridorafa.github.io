@@ -4,6 +4,9 @@ export const AvatarImage = styled.img`
   border-radius: 50%;
   object-fit: cover;
   height: 370px;
+  @media screen and (max-width: 768px) {
+    height: 250px;
+  }
 `;
 
 export const SocialLink = styled.a`
@@ -24,8 +27,29 @@ export const HeroDiv = styled.div`
   h1 {
     font-size: 3rem;
   }
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+    height: 500px;
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
 `;
 
 export const DescriptionStyled = styled.h2`
   width: 546px;
+  @media screen and (max-width: 768px) {
+    width: 80%;
+    font-size: 1.6rem;
+  }
+`;
+
+export const Info = styled.div`
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 `;
