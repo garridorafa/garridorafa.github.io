@@ -13,7 +13,7 @@ export const ProjectInfo = [
   {
     projectName: "Tickets record",
     description:
-      "Tickets crm build on React Admin, Nestjs and MySQL; deployed on AWS services",
+      "Tickets CRM build on React Admin, Nestjs and MySQL; deployed on AWS services",
     image: ticketsImg,
     alt: "tickets-app",
   },
