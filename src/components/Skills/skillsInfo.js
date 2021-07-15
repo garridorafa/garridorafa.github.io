@@ -25,7 +25,7 @@ const skillsInfo = [
   },
   {
     description: "Bitbucket pipelines, project repositories management",
-    iconName: "bitbucket icon",
+    iconName: "bitbucket",
   },
 ];
 

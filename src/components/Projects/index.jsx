@@ -37,8 +37,8 @@ const Projects = () => {
   return (
     <ProjectsDiv id="projects">
       <h2>Projects</h2>
-      {ProjectInfo.map((project) => {
-        return <ProjectItem {...project} />;
+      {ProjectInfo.map((project, index) => {
+        return <ProjectItem key={index} {...project} />;
       })}
     </ProjectsDiv>
   );

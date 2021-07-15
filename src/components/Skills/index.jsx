@@ -15,8 +15,8 @@ const SkillsSection = () => {
     <SkillsDiv id="skills">
       <h2>Skills</h2>
       <SkillsGroup>
-        {skillsInfo.map((skill) => {
-          return <SkillItem key={skill.name} {...skill} />;
+        {skillsInfo.map((skill, index) => {
+          return <SkillItem key={index} {...skill} />;
         })}
       </SkillsGroup>
     </SkillsDiv>
