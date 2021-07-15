@@ -1,11 +1,19 @@
-import { ButtonStyled } from "./styles";
+import { PrimaryButton, SecundaryButton } from "./styles";
 
 const Button = ({ children, variant, url }) => {
-  return (
-    <ButtonStyled href={url} variant={variant} target="_blank">
-      {children}
-    </ButtonStyled>
-  );
+  if (variant === "primary") {
+    return (
+      <PrimaryButton href={url} target="_blank">
+        {children}
+      </PrimaryButton>
+    );
+  } else {
+    return (
+      <SecundaryButton href={url} target="_blank">
+        {children}
+      </SecundaryButton>
+    );
+  }
 };
 
 export default Button;
