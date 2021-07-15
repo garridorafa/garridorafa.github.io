@@ -20,6 +20,8 @@ export const ProjectItemStyled = styled.div`
   @media screen and (max-width: 768px) {
     flex-direction: column-reverse;
     padding: 30px 5px 0 5px;
+    margin-bottom: 60px;
+
     img {
       width: 100%;
     }
