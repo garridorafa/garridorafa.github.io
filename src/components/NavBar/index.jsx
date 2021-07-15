@@ -16,6 +16,9 @@ const NavBar = () => {
         <li>
           <NavItem href="#projects">Projects</NavItem>
         </li>
+        <li>
+          <NavItem href="#contact">Contact</NavItem>
+        </li>
       </NavMenu>
     </NavContainer>
   );

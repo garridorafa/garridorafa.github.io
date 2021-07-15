@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
+import Contact from "./components/Contact";
 
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <Skills />
       <Projects />
+      <Contact />
       <Footer />
     </Router>
   );

@@ -25,6 +25,9 @@ export const NavItem = styled.a`
     color: black;
     transition: all 0.3s;
   }
+  @media screen and (max-width: 768px) {
+    padding: 0 5px;
+  } ;
 `;
 
 export const NavBarLogo = styled.div`
