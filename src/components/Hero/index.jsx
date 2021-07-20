@@ -18,7 +18,7 @@ const HeroSection = () => {
       <Info>
         <h1>Hey, I'm Rafa!</h1>
         <DescriptionStyled>
-          A web designer and developer based in Santo Domingo. I like create
+          A web designer and developer based in Santo Domingo. I like to create
           fast and beautiful websites to help people go online.
         </DescriptionStyled>
         <div>

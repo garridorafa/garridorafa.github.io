@@ -4,7 +4,7 @@ import ticketsImg from "./../../assets/tickets-record.png";
 export const ProjectInfo = [
   {
     projectName: "RDT website (study case)",
-    description: "Dominican Republic travel webside build on react",
+    description: "Dominican Republic travel website build on react",
     image: rdtImg,
     alt: "rdt-website",
     repo: "https://github.com/garridorafa/rdt-react-website",
