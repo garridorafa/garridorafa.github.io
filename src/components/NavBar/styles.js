@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-scroll";
 
 export const NavMenu = styled.ul`
   display: grid;
@@ -11,7 +12,7 @@ export const NavMenu = styled.ul`
   }
 `;
 
-export const NavItem = styled.a`
+export const NavItem = styled(Link)`
   transition: all 0.3s ease-in;
   color: #827171f2;
   font-weight: bold;
@@ -19,6 +20,7 @@ export const NavItem = styled.a`
   display: flex;
   align-items: center;
   text-decoration: none;
+  cursor: pointer;
   padding: 0.5rem 1rem;
   height: 100%;
   :hover {
