@@ -6,7 +6,7 @@ const Contact = () => {
     <ContactDiv id="contact">
       <h2>Want to make something cool?</h2>
       <p>Let's work together 😀</p>
-      <Button variant="secundary" url="mailto:garridolara.rafa@gmail.com">
+      <Button variant="secondary" url="mailto:info@heyrafa.com">
         GET IN TOUCH
       </Button>
     </ContactDiv>
